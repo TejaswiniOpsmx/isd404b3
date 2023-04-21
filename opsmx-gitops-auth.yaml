@@ -1,0 +1,22 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+data:
+  dynamicAccRepository: aXNkNDA0YjM=
+  dynamicaccountsgituri: aHR0cHM6Ly9naXRodWIuY29tL1RlamFzd2luaU9wc214L2lzZDQwNGIzLmdpdA==
+  gitcloneparam: aHR0cHM6Ly9UZWphc3dpbmlPcHNteDpnaHBfWjhtdTlxaHltV0VKUUxWMHVjdUh6bnRCMUFZM3ZZMUJBMTRvQGdpdGh1Yi5jb20vVGVqYXN3aW5pT3BzbXgvaXNkNDA0YjMuZ2l0
+  gittoken: Z2hwX1o4bXU5cWh5bVdFSlFMVjB1Y3VIem50QjFBWTN2WTFCQTE0bw==
+  gituser: VGVqYXN3aW5pT3BzbXg=
+kind: Secret
+metadata:
+  annotations:
+    meta.helm.sh/release-name: isd404b3
+    meta.helm.sh/release-namespace: isd404b3
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  name: opsmx-gitops-auth
+  namespace: isd404b3
+type: Opaque
+
